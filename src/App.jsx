@@ -8,6 +8,7 @@ import CustomiseSection from './components/sections/CustomiseSection.jsx';
 import PricingSection from './components/sections/PricingSection.jsx';
 import CtaSection from './components/sections/CtaSection.jsx';
 import DataSecuritySection from './components/sections/DataSecuritySection.jsx'; 
+import SponsorsSection from './components/sections/SponsorsSection.jsx';
 
 function App() {
   useEffect(() => {
@@ -27,6 +28,7 @@ function App() {
       <PricingSection />
       <CtaSection />
       <DataSecuritySection /> 
+      <SponsorsSection />
     </div>
   );
 }
