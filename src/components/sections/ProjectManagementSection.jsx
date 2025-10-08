@@ -3,11 +3,15 @@ import arrowRight from '../../assets/icons/arrow-right.svg';
 
 const ProjectManagementSection = () => {
   return (
-    <section className="py-20">
+    <section className="py-20 overflow-hidden"> {/* Added overflow-hidden */}
       <div className="container mx-auto px-4 max-w-7xl">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           
-          <div className="relative">
+          {/* Add data-aos="fade-right" to the text column */}
+          <div 
+            className="flex flex-col items-center md:items-start text-center md:text-left" 
+            data-aos="fade-right"
+          >
             <h2 className="text-5xl font-bold text-primary leading-tight">
               Project 
               <br />
@@ -25,7 +29,11 @@ const ProjectManagementSection = () => {
             </button>
           </div>
 
-          <div className="hidden md:block">
+          {/* Add data-aos="fade-left" to the image column */}
+          <div 
+            className="order-first md:order-last mt-12 md:mt-0" 
+            data-aos="fade-left"
+          >
             <div className="bg-accent-blue h-96 w-full rounded-md"></div>
           </div>
 

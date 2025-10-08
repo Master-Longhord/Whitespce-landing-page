@@ -1,25 +1,24 @@
-// src/components/sections/CollaborationSection.jsx
-
 import React from 'react';
 import collaborationGraphic from '../../assets/images/collaboration-graphic.svg';
 import arrowRight from '../../assets/icons/arrow-right.svg';
 
 const CollaborationSection = () => {
   return (
-    <section className="py-20">
+    <section className="py-20 overflow-hidden">
       <div className="container mx-auto px-4 max-w-7xl">
-        
-        {/* Responsive grid with reversed order on desktop */}
         <div className="grid md:grid-cols-2 gap-16 items-center">
           
-          {/* Left Column: Image */}
-          {/* The 'order-last' class is for mobile, making text appear first */}
-          <div className="order-last md:order-first">
+          <div 
+            className="mt-12 md:mt-0"
+            data-aos="fade-left"
+          >
             <img src={collaborationGraphic} alt="Collaboration graphic" />
           </div>
 
-          {/* Right Column: Text Content */}
-          <div>
+          <div 
+            className="flex flex-col items-center md:items-start text-center md:text-left"
+            data-aos="fade-right"
+          >
             <h2 className="text-5xl font-bold text-primary leading-tight">
               Work together
             </h2>

@@ -6,12 +6,12 @@ const HeroSection = () => {
   return (
     <div className="bg-primary pb-20">
       <Header />
-
-      <div className="container mx-auto px-4 max-w-7xl mt-20">
+      <div className="container mx-auto px-4 max-w-7xl mt-12 md:mt-20">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           
-          <div className="text-white">
-            <h1 className="text-6xl font-bold leading-tight">
+          {/* CHANGE 1: Added centering classes */}
+          <div className="text-white flex flex-col items-center md:items-start text-center md:text-left">
+            <h1 className="text-5xl md:text-6xl font-bold leading-tight">
               Get More Done with whitepace
             </h1>
             <p className="mt-4 text-lg text-gray-300">
@@ -26,7 +26,8 @@ const HeroSection = () => {
             </button>
           </div>
 
-          <div className="hidden md:block">
+          {/* CHANGE 2: Removed 'hidden md:block' */}
+          <div className="mt-12 md:mt-0">
             <div className="bg-accent-blue opacity-50 h-96 w-full rounded-md"></div>
           </div>
 
