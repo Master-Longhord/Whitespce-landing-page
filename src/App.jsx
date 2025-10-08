@@ -10,6 +10,7 @@ import CtaSection from './components/sections/CtaSection.jsx';
 import DataSecuritySection from './components/sections/DataSecuritySection.jsx'; 
 import SponsorsSection from './components/sections/SponsorsSection.jsx';
 import AppsSection from './components/sections/AppsSection.jsx';
+import TestimonialsSection from './components/sections/TestimonialsSection.jsx';
 
 function App() {
   useEffect(() => {
@@ -31,6 +32,7 @@ function App() {
       <DataSecuritySection /> 
       <SponsorsSection />
       <AppsSection />
+      <TestimonialsSection />
     </div>
   );
 }
