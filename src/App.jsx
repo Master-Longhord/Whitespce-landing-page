@@ -5,6 +5,7 @@ import ProjectManagementSection from './components/sections/ProjectManagementSec
 import CollaborationSection from './components/sections/CollaborationSection.jsx';
 import ExtensionSection from './components/sections/ExtensionSection.jsx'; 
 import CustomiseSection from './components/sections/CustomiseSection.jsx';
+import PricingSection from './components/sections/PricingSection.jsx';
 
 function App() {
   useEffect(() => {
@@ -21,6 +22,7 @@ function App() {
       <CollaborationSection />
       <ExtensionSection />
       <CustomiseSection />
+      <PricingSection />
     </div>
   );
 }
