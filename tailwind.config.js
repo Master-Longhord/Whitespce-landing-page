@@ -6,6 +6,7 @@ export default {
   ],
   theme: {
     extend: {
+      // THIS SECTION IS PROBABLY MISSING OR INCORRECT
       colors: {
         'primary': '#043873',
         'secondary': '#4F9CF9',
@@ -18,6 +19,7 @@ export default {
         inter: ['Inter', 'sans-serif'],
       },
     },
+    // We defined our breakpoints here
     screens: {
       'sm': '320px',
       'md': '768px',
