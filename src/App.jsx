@@ -4,7 +4,7 @@ import HeroSection from './components/sections/HeroSection.jsx';
 import ProjectManagementSection from './components/sections/ProjectManagementSection.jsx'; // 1. Import it
 import CollaborationSection from './components/sections/CollaborationSection.jsx';
 import ExtensionSection from './components/sections/ExtensionSection.jsx'; 
-
+import CustomiseSection from './components/sections/CustomiseSection.jsx';
 
 function App() {
   useEffect(() => {
@@ -20,6 +20,7 @@ function App() {
       <ProjectManagementSection />
       <CollaborationSection />
       <ExtensionSection />
+      <CustomiseSection />
     </div>
   );
 }
