@@ -6,6 +6,7 @@ import CollaborationSection from './components/sections/CollaborationSection.jsx
 import ExtensionSection from './components/sections/ExtensionSection.jsx'; 
 import CustomiseSection from './components/sections/CustomiseSection.jsx';
 import PricingSection from './components/sections/PricingSection.jsx';
+import CtaSection from './components/sections/CtaSection.jsx';
 
 function App() {
   useEffect(() => {
@@ -23,6 +24,7 @@ function App() {
       <ExtensionSection />
       <CustomiseSection />
       <PricingSection />
+      <CtaSection />
     </div>
   );
 }
