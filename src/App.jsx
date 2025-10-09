@@ -11,7 +11,8 @@ import DataSecuritySection from './components/sections/DataSecuritySection.jsx';
 import SponsorsSection from './components/sections/SponsorsSection.jsx';
 import AppsSection from './components/sections/AppsSection.jsx';
 import TestimonialsSection from './components/sections/TestimonialsSection.jsx';
-
+import FinalCtaSection from './components/sections/FinalCtaSection.jsx';
+import Footer from './components/layout/Footer.jsx'; 
 function App() {
   useEffect(() => {
     AOS.init({
@@ -33,6 +34,8 @@ function App() {
       <SponsorsSection />
       <AppsSection />
       <TestimonialsSection />
+      <FinalCtaSection />
+      <Footer /> 
     </div>
   );
 }
